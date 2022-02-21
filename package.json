@@ -1,6 +1,6 @@
 {
   "name": "disallow-media-duplicate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Dissalowing SCSS duplicated media query mixins",
   "main": "index.js",
   "files": [
