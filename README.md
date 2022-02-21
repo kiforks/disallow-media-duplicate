@@ -17,10 +17,10 @@ _.stylelintrc_
 ```json
 {
     "plugins": [
-      "kiforks/disallow-media-duplicate"
+        "kiforks/disallow-media-duplicate"
     ],
     "rules": {
-	    "kiforks/disallow-media-duplicate": true
+        "kiforks/disallow-media-duplicate": true
     }
 }
 ```
@@ -30,19 +30,19 @@ _.stylelintrc_
 /* BAD */
 .block {
 	@include media-min(xs) {
-		width: 300px;
+            width: 300px;
 	}
 
 	@include media-min(xs) {
-		height: 305px;
+            height: 305px;
 	}
 }
 
 /* GOOD */
 .block {
 	@include media-min(xs) {
-		width: 300px;
-        height: 305px;
+            width: 300px;
+            height: 305px;
 	}
 }
 ```

@@ -1,7 +1,7 @@
 {
   "name": "disallow-media-duplicate",
-  "version": "1.1.1",
-  "description": "Dissalowing SCSS duplicated media query mixins",
+  "version": "1.1.3",
+  "description": "Disallow SCSS duplicated media query mixins",
   "main": "index.js",
   "files": [
     "index.js"
@@ -23,20 +23,20 @@
     "hint",
     "media",
     "media query",
-    "nest",
-    "nesting",
-    "nested"
+    "disallow",
+    "disallowed",
+    "disallowing"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kifork/disallow-media-duplicate.git"
+    "url": "git+https://github.com/kiforks/disallow-media-duplicate.git"
   },
   "author": "<ks.kifor@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kifork/disallow-media-duplicate/issues"
+    "url": "https://github.com/kiforks/disallow-media-duplicate/issues"
   },
-  "homepage": "https://github.com/kskifor/disallow-media-duplicate#readme",
+  "homepage": "https://github.com/kiforks/disallow-media-duplicate#readme",
   "scripts": {
     "test": "npx stylelint test/**/*.scss",
     "fix": "npx stylelint test/**/*.scss --fix"
@@ -45,5 +45,8 @@
     "stylelint": "^14.2.0",
     "postcss-scss": "^4.0.2",
     "stylelint-scss": "^4.1.0"
+  },
+  "dependencies": {
+    "tenantcloud-stylelint-config": "^1.6.0"
   }
 }
